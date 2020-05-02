@@ -7,7 +7,7 @@ function Home() {
 	return (
 		<div className="Home" id="Page">
 			<EmbedItem
-				src="https://www.youtube.com/embed/TFHPFltoJO4"
+				src="https://www.youtube-nocookie.com/embed/TFHPFltoJO4"
 				title="Haas Automation, Inc"
 				width={videoWidth}
 				caption="I coded a Nachi robot to interact with 
@@ -17,7 +17,7 @@ function Home() {
 				actual cutting occured in this video sample."
 			/>
 			<EmbedItem
-				src="https://www.youtube.com/embed/1Dp1Uwp6pMk"
+				src="https://www.youtube-nocookie.com/embed/1Dp1Uwp6pMk"
 				title="Team 696"
 				width={videoWidth}
 				caption="On FRC Team 696, I was the head programmer 

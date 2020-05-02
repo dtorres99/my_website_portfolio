@@ -7,6 +7,8 @@ import Projects from "./Pages/Projects";
 import Header from "./Header";
 
 function App() {
+	document.title = "It's Daniel Torres";
+
 	return (
 		<NavStatesProvider>
 			<BrowserRouter>
