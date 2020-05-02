@@ -1,0 +1,23 @@
+.Header {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+}
+
+.Title {
+	margin-left: 30px;
+	font-weight: 700;
+}
+
+@media (max-width: 620px) {
+	.Header {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.Title {
+		display: flex;
+		justify-content: space-around;
+	}
+}

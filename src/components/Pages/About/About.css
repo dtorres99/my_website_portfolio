@@ -1,0 +1,22 @@
+.About {
+	flex-direction: column;
+	text-align: center;
+}
+
+.bio {
+	margin: 0px 10px;
+	padding-bottom: 15px;
+	text-align: left;
+}
+
+.profile-picture {
+	width: 300px;
+	float: left;
+	margin: 1px 10px;
+}
+
+#Page {
+	background-color: #005e83;
+	color: black;
+	flex: 1;
+}

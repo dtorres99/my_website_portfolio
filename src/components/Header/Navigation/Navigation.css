@@ -1,0 +1,64 @@
+.NavigationBar {
+	display: flex;
+	justify-content: space-around;
+	height: 42px;
+}
+
+.NavOptions {
+	background: rgb(0, 52, 73);
+	min-width: 125px;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	margin: 1px;
+	font-weight: 400;
+}
+
+.NavOptionsSelected {
+	background-color: #005e83;
+	width: 125px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	margin: 1px;
+	font-weight: 600;
+}
+
+.NavLinks {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+@media (max-width: 620px) {
+	.NavOptions {
+		background: rgb(0, 52, 73);
+		min-width: 100px;
+		width: 33vw;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		margin: 1px;
+	}
+
+	.NavOptionsSelected {
+		background-color: #005e83;
+		width: 33vw;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		margin: 1px;
+	}
+}

@@ -1,0 +1,44 @@
+.Home {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: flex-start;
+}
+
+#Page {
+	background-color: #005e83;
+	color: black;
+	flex: 1;
+}
+
+.instaPost {
+	display: flex;
+	justify-content: center;
+}
+
+.history-item {
+	display: flex;
+	flex: 0 1 100px;
+	flex-direction: column;
+	background-color: rgb(0, 38, 53);
+	padding: 10px;
+	margin: 10px;
+	margin-top: 20px;
+	border-radius: 10px;
+	flex: 1;
+	max-width: 550px;
+}
+
+.history-item-title {
+	display: flex;
+	justify-content: center;
+	font-weight: 700;
+}
+
+.history-item-youtube {
+	align-self: center;
+}
+
+.history-item-caption {
+	font-weight: 300;
+}
