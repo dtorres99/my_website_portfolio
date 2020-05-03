@@ -2,7 +2,8 @@ import React from "react";
 import NavOptions from "./NavOptions";
 import "./Navigation.css";
 
-function NavigationBar() {
+function NavigationBar({}) {
+	console.log();
 	return (
 		<nav className="NavigationBar">
 			<NavOptions name="Home" />

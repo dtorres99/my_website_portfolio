@@ -5,7 +5,7 @@ import { NavStatesContext } from "./NavStatesContext";
 
 function NavOptions({ name }) {
 	const [selected, setSelected] = useContext(NavStatesContext);
-	const [location, setLocation] = useState(window.location.href.split("/")[3]);
+	const [location, setLocation] = useState(window.location.href.split("/")[4]);
 
 	const updateStates = () => {
 		switch (location.toLowerCase()) {
@@ -54,7 +54,7 @@ function NavOptions({ name }) {
 	return (
 		<Link
 			className="NavLinks"
-			to={name === "Home" ? "/" : `/${name}`}
+			to={"/my_website_portfolio" + (name === "Home" ? "/" : `/${name}`)}
 			onClick={updateLocation}>
 			<NavOptionsDisplay name={name} selected={selected[name]} />
 		</Link>
